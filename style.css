@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    width: 100vw;
+}
+
+.left-nav, .right-nav{
+    display: block;
+    overflow: hidden;
+    line-height: 1.8;
+    padding: 15px 10px;
+}
+
+.left-nav a, .right-nav a{
+    color: #000;
+    background-color: #fff; 
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.left-nav a:hover, .right-nav a:hover{
+    background-color: grey;
+}
+
+.header-wrapper{
+    padding-top: 60px;
+    height: 40rem;
+}
+.background-image{
+    background-image: url("Images/mac.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    filter: grayscale(50%);
+}
+
+.header-display {
+    padding: 70px; 
+    padding-top: 150px; 
+}
+
+.display-icon {
+    padding: 70px; 
+    padding-top: 20px;
+}
+
+.jumbo{
+    font-size: 64px;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: 700;
+}
+
+.canoe{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.8;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.klin{
+    color: #000;
+    background-color: #fff; 
+    padding: 22px 15px;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.klin:hover{
+    opacity: 0.60;
+}
+
+#bose {
+    color: grey;
+}
+
+.about {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding: 128px 16px;
+}
+
+.com-pan {
+    font-size: 24px;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+.pan-com {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 600;
+    
+}
+
+.ratio {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 8px;
+    margin-top: 64px;
+}
+
+#bisola {
+    display: inline-block;
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.four {
+    font-size: 18px;
+    font-weight: 750;
+    line-height: 1.8;
+    margin: 18px 0;
+}
+
+.part{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.8;
+    margin: 15px 0;
+}
+
+.what-we-do {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 128px 16px;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.we-know, .know-we {
+    padding: 0 80px 0 8px;
+}
+
+.know {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #000;
+}
+
+.lorem {
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.view {
+    color: #fff;
+    background-color: #000;
+    padding: 12px 18px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+#vw-btn {
+    padding: 0 1px;
+}
+
+.phone-image {
+    border-radius: 8px;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.team {
+    padding: 128px 16px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 64px;
+    column-gap: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    /* border: none; */   
+}
+
+.column {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 16px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.the-team {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.the-ones {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 18px 0;
+}
+
+.john {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(75%);
+}
+
+.anja {
+    padding: 0.16px 16px;
+}
+
+.doe {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title {
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.phase {
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.con-tact {
+    color: #000;
+    background: #f1f1f1;
+    font-size: 15px;
+    padding: 10px 16px;
+    margin: 10px;
+    display: block;
+    width: 90%;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 1px solid #fff;
+}
+
+.ratings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 64px 0px;
+}
+
+.jos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding-top: 30px;
+}
+
+.people {
+    height: 200px;
+    background-color: #616161;
+}
+  
+.work-done {
+    height: 200px;
+    background-color: #616161;
+}
+  
+.client {
+    height: 200px;
+    background-color: #616161;
+}
+  
+.meeting {
+    height: 200px;
+    background-color: #616161;
+}
+  
+.timi-babs {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #616161;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+  
+.fan {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #616161;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.our-work {
+    padding: 64px 16px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 64px;
+    padding: 0 8px;
+    row-gap: 20px;
+    line-height: 2.5;
+}
+
+.con-1 {
+    width: 100%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 16px;
+    margin:     px;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+#remlo {
+    padding: 22px 0;
+}
+.our-skill, .skill-set {
+    padding: 0 80px 0 8px;
+}
+
+.cam-code {
+    padding: 10px 0px;
+}
+.box-grid {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    padding: 15px 0px;
+}
+  
+.box-1 {
+    height: 30px;
+    background-color: #616161;
+}
+  
+.box-2 {
+    height: 30px;
+    background-color: #9e9e9e;
+}
+  
+.word-press {
+    padding: 10px 0px;
+}
+  
+.box-cont {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 15px 0px;
+}
+  
+.box-3 {
+    height: 30px;
+    background-color: #616161;
+}
+  
+.percentage {
+    color: #fff;
+    background-color: #616161;
+    text-align: center;
+    line-height: 1.5;
+    padding: 4px 8px;
+    display: block;
+    font-size: 15px;
+}
+.box-4 {
+    height: 30px;
+    background-color: #9e9e9e;
+}
+  
+.corel-draw {
+    padding: 10px 0px;
+}
+  
+.box-house {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 15px 0px;
+}
+  
+.box-5 {
+    height: 30px;
+    background-color: #616161;
+}
+  
+.box-6 {
+    height: 30px;
+    background-color: #9e9e9e;
+}
+  
+
+.price-container {
+    color: #fff;
+    background-color: #616161;
+    padding: 128px 0;
+}
+
+
+.price-header {
+    text-align: center;
+    justify-content: center;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.price-heading {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.price-fit {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.my-price-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 64px;
+    padding: 0 8px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.apapa {
+    padding: 0 8px;
+    margin: 16px 0;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.marina {
+    color: #000;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.black-card, .grey-card {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 24px;
+}
+
+.orange-card {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 24px;
+}
+
+.black-card, .grey-card {
+    color: #fff;
+  background-color: #000;
+}
+
+.orange-card {
+    color: #fff;
+    background-color: #f44336;
+}
+
+#pa-pa {
+    transform: scale(1, 1.1);
+}
+
+.card-one {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.w2-grey {
+    border-bottom: none;
+    padding: 8px 16px;
+    color: #000;
+    background-color: #f1f1f1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.w3-green {
+    color: #fff;
+    background-color: #000;
+    padding: 12px 24px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.reach {
+    padding: 128px 16px;
+    color: #000;
+    background-color: #f1f1f1;
+    font-weight: 700;
+    display: block;
+}
+
+.oke-odo {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.odo-oke {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+
+.saw-mill {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    line-height: 1.8;
+}
+
+#basin{
+    padding: 10px;
+    font-size: 27px;
+    margin-right: 16px;
+    color: #000;
+}
+
+.mosa {
+    width: 100%;
+    padding: 16px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0 16px 0;
+    resize: vertical;
+    display: block;
+    color: #000;
+    font-weight: 700;
+}
+
+.doluwa{
+    color: #f1f1f1;
+    background-color: #000;
+    padding: 12px 24px;  
+    cursor: pointer;
+    white-space: nowrap;
+    border: none;
+    display: inline;
+    vertical-align: middle;
+    font-weight: 700;
+}
+  
+  .doluwa:hover{
+    color: #757575;
+}
+
+#yemi{
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.map-image{
+    max-width: 100%;
+    height: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    filter: grayscale(75%);
+}
+
+.footer {
+    color: #fff;
+    background-color: #000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: block;
+    text-align: center;
+}
+
+#bose{
+    font-size: 24px;
+    padding: 1.5px;
+    color: #757575;
+}
+
+.tolu{
+    padding: 10px;
+}
