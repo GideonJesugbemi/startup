@@ -91,8 +91,9 @@
     opacity: 0.60;
 }
 
-#bose {
+#hana {
     color: grey;
+    font-size: 24px;
 }
 
 .about {
@@ -281,36 +282,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 64px 0px;
+    background-color: #616161;
 }
 
 .jos {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-    padding-top: 30px;
 }
 
-.people {
-    height: 200px;
-    background-color: #616161;
-}
-  
-.work-done {
-    height: 200px;
-    background-color: #616161;
-}
-  
-.client {
-    height: 200px;
-    background-color: #616161;
-}
-  
-.meeting {
-    height: 200px;
-    background-color: #616161;
-}
   
 .timi-babs {
     font-size: 24px;
@@ -319,7 +299,6 @@
     background-color: #616161;
     text-align: center;
     line-height: 1.5;
-    padding-top: 30px;
 }
   
 .fan {
@@ -352,7 +331,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 64px 16px;
-    margin:     px;
     color: #000;
     background-color: #f1f1f1;
 }
@@ -627,10 +605,22 @@
     text-align: center;
 }
 
+.footer-btn {
+    padding: 10px;
+}
+
 #bose{
     font-size: 24px;
     padding: 1.5px;
     color: #757575;
+    padding-top: 40px;
+}
+
+#ose {
+    font-size: 24px;
+    padding: 1.5px;
+    color: #757575;
+    padding-top: 20px;
 }
 
 .tolu{

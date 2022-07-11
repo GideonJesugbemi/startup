@@ -1,13 +1,52 @@
 @media screen and (max-width: 780px) {
+    .container {
+        height: 100%;
+        line-height: 1.8;
+        margin: 0;
+    }
+    
     .header-display {
-        padding: 0 50px; 
+        padding: 0 48px; 
         padding-top: 30px; 
     }
+
+    /* .header-wrapper {
+
+    } */
 
     .display-icon {
         padding: 50px;
         padding-bottom: 100px;
     }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 64px;
+        column-gap: 10px;
+        padding-right: 16px;
+        padding-left: 16px;
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .image-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 64px;
+        /* padding: 0 8px; */
+        /* row-gap: 2px; */
+        /* line-height: 2.5; */
+    }
+
+    .mic-image {
+        width: 95%;
+    }
+
+    .con-1 {
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 430px) {
@@ -27,5 +66,106 @@
 
     .canoe {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        min-height: 100%;
+    }
+
+    .header-wrapper{
+        padding-top: 60px;
+        height: 40rem;
+    }
+
+    .background-image {
+        height: 120%;
+    }
+
+    .jumbo {
+        font-size: 35px;
+    }
+
+    .canoe {
+        font-size: 18px;
+    }
+
+    .display-icon {
+        padding: 24px 48px;
+        font-size: 18px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .about {
+        padding: 128px 16px;
+        display: block;
+    }
+
+    .ratio {
+        margin-top: 64px;
+        text-align: center;
+        padding: 0 8px;
+        display: block;
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    .what-we-do {
+        display: block;
+    }
+
+    .phone-image {
+        max-width: 126%;
+        height: auto;
+    }
+    .card-container {
+        display: block;
+        margin-top: 64px;
+        padding: 0 8px;
+    }
+
+    .ratings {
+        display: block;
+        padding: 64px 0;
+        text-align: center;
+        /* padding-bottom: 64px; */
+    }
+
+    .people, .work-done {
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .image-container {
+        display: block;
+        margin-top: 64px;
+        padding: 0 8px;
+    }
+
+    .mic-image {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .con-1 {
+        width: 100%;
+    }
+    
+    .skills {
+        display: block;
+    }
+
+    .my-price-card {
+        display: block;
+        padding: 0 8px;
     }
 }
